@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //strings//
 
 //1. Create a string stating today's date.//
@@ -22,6 +23,27 @@ var traysAge = myAge - 3.5
 //3. Number of jobs I've had since college//
 var jobNumber = 4
 
+=======
+//finding the length of my name//
+
+"Margaret".length
+
+//numbers//
+
+3 + 4
+
+5-6
+
+1*2
+
+//creating popup windows and prompts//
+
+confirm("Javascript rules.");
+
+//string examples///
+
+"Today is July 30th.".length
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 
 //booleans//
 
@@ -29,15 +51,25 @@ var jobNumber = 4
 
 23>10 //true//
 
+<<<<<<< HEAD
 //true statement about absences//
+=======
+console.log("Margaret".length === 8)
+console.log("Margaret Godowns".lenth > 10)
+
+//some more examples using multiple elements//
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 
 if ("Your Iron Yard absenses".length >= 4)
   {
     console.log("You are fucked.");
 }
 
+<<<<<<< HEAD
 //and another//
 
+=======
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 if ("Your number of absences".length === 0){
     console.log("You will succeed.");
 }
@@ -46,6 +78,16 @@ if ("Your number of absences".length === 0){
   }
 
 
+<<<<<<< HEAD
+=======
+if ("yourName".length > 8){
+console.log("The condition is true")
+}
+else{
+    console.log("The condition is false")
+}
+
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 //playing with modulo//
 console.log(6 % 7)
 console.log(10 % 3)
@@ -69,26 +111,66 @@ console.log(myName)
 myName=("Ma")
 console.log(myName)
 
+<<<<<<< HEAD
 
 //functions//
 //1. favorite beer//
+=======
+//more variable fun//
+
+var myColor = "coral"
+console.log(myColor.length)
+
+//function examples from Codecademy//
+
+var divideByThree = function (number) {
+    var val = number / 3;
+    console.log(val);
+};
+divideByThree(24);
+//answer is 8, obvi//
+
+var sayHello = function(name) {
+    console.log('Hello ' + name);
+};
+
+var foodDemand=function(food){
+    console.log("I want to eat" + " " + food);
+};
+foodDemand("watermelon")
+
+var orangeCost=function(price){
+    console.log(price * 5)
+};
+orangeCost(3);
+
+//my function examples//
+
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 var myFavBeer=function(beer) {
   console.log("I want to drink + " " + beer");
 }
 myFavBeer("RJ Rockers")
 
+<<<<<<< HEAD
 //2. hi Calvin//
+=======
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 var greeting=function (funcname){
     console.log(name)
     };
     greeting("Calvin");
 
+<<<<<<< HEAD
 //3.some simple math//
+=======
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
 var timesFour=function(number){
   return number * 4
 };
 var newNumber=timesFour(23);
 console.log(newNumber);
+<<<<<<< HEAD
 
 //objects//
 
@@ -121,3 +203,5 @@ arr = ["fish", "camel", "bridge"]
 
 //3. make a sentence about yoga using an array//
 Succes = "Attempt" + arr[1] + "then" + arr[2] + "then" + arr[0] + "for"
+=======
+>>>>>>> be8db3ea841c677e59422b60d514aae2382f3df2
